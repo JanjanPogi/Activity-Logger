@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface>
+	<object class="ttk.Frame" id="frmTimer">
+        <property name="height">25</property>
+        <property name="width">500</property>
+        <layout>
+            <property name="column">2</property>
+            <property name="propagate">False</property>
+            <property name="row">0</property>
+        </layout>
+        <child>
+            <object class="ttk.Button" id="btnToLog">
+                <property name="command">show_window</property>
+                <property name="text" translatable="yes">Log New Item</property>
+                <layout>
+                    <property name="column">0</property>
+                    <property name="propagate">True</property>
+                    <property name="row">0</property>
+                </layout>
+            </object>
+        </child>
+        <child>
+            <object class="ttk.Label" id="lblProcess">
+                <property name="text" translatable="yes">Process</property>
+                <layout>
+                    <property name="column">1</property>
+                    <property name="ipadx">50</property>
+                    <property name="padx">2</property>
+                    <property name="propagate">True</property>
+                    <property name="row">0</property>
+                </layout>
+            </object>
+        </child>
+        <child>
+            <object class="ttk.Label" id="lblTime">
+                <property name="text" translatable="yes">Time</property>
+                <layout>
+                    <property name="column">2</property>
+                    <property name="ipadx">50</property>
+                    <property name="padx">5</property>
+                    <property name="propagate">True</property>
+                    <property name="row">0</property>
+                </layout>
+            </object>
+        </child>
+    </object>
+</interface>
